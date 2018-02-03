@@ -33,9 +33,9 @@ const ReactRpgPhoto = ({ url, padding, clickHandler = null }) => {
 };
 
 ReactRpgPhoto.propTypes = {
-  url: React.PropTypes.string.isRequired,
-  padding: React.PropTypes.number,
-  clickHandler: React.PropTypes.func,
+  url: PropTypes.string.isRequired,
+  padding: PropTypes.number,
+  clickHandler: PropTypes.func,
 };
 
 export default ReactRpgPhoto;

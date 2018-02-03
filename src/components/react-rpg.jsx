@@ -29,9 +29,9 @@ const ReactRpg = ({ imagesArray, padding = 0, columns = [1, 2, 3] }) => {
 };
 
 ReactRpg.propTypes = {
-  imagesArray: React.PropTypes.array.isRequired,
-  columns: React.PropTypes.array,
-  padding: React.PropTypes.number,
+  imagesArray: PropTypes.array.isRequired,
+  columns: PropTypes.array,
+  padding: PropTypes.number,
 };
 
 ReactRpg.defaultProps = {
