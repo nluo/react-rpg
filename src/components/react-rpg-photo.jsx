@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ReactRpgPhoto = ({ url, padding, clickHandler = null }) => {
   const pointer = clickHandler ? 'pointer' : 'auto';

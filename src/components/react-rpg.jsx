@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactRpgPhoto from './react-rpg-photo';
+import PropTypes from 'prop-types';
 
 const ReactRpg = ({ imagesArray, padding = 0, columns = [1, 2, 3] }) => {
   const imageNodes = imagesArray.map((arr, index) => {
